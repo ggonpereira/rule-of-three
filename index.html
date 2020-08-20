@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/styles.css">
+    <script defer src="https://kit.fontawesome.com/8916a1d688.js" crossorigin="anonymous"></script>
+
+    <title>Regra de 3</title>
+</head>
+
+<body id="page-body">
+    <div id="container">
+        <header class="page-header">
+            <a href="https://bit.ly/3az8RCI" target="_blank" class="logo">Regra de 3</a>
+            <p>Desenvolvido com <i class="fas fa-heart"></i> por <a href="https://github.com/ggonpereira">Gabriel G.
+                    Pereira</a></p>
+        </header>
+
+        <div id="content">
+            <aside>
+                <img src="./img/math.svg" alt="Math">
+            </aside>
+            <article>
+                <section>
+                    <div class="header-section">
+                        <strong>Calculadora de Regra de Três Simples</strong>
+                        <p>Use essa calculadora para descobrir um número em proporção a outros três que são conhecidos.
+                        </p>
+                    </div>
+                    <div class="input-group">
+                        <input id="num1" type="number" class="insert-data" placeholder="A">
+                        <span class="between-inputs-horizontal">Esta para</span>
+                        <input id="num2" type="number" class="insert-data" placeholder="B">
+
+                        <div class="between-inputs-vertical">
+                            Assim como
+                        </div>
+
+                        <input id="num3" type="number" class="insert-data" placeholder="C">
+                        <span class="between-inputs-horizontal">Esta para</span>
+
+                        <input id="result" type="" value="X" class="result-output" disabled>
+
+                    </div>
+                    <div class="calculate-result">
+                        <select id="choose-type">
+                            <option value="" disabled selected>Escolha o tipo</option>
+                            <option value="1">Diretamente proporcional</option>
+                            <option value="2">Inversamente proporcional</option>
+                        </select>
+                        <button class="button-calculate" onclick="testando()">Calcular</button>
+                    </div>
+                    <div class="rule-of-three-description">
+                        <strong>O que é a regra de três simples</strong>
+                        <p>A regra de três é uma ferramenta matemática utilizada em diversos lugares, facilmente usada
+                            também no nosso dia a dia.</p>
+                        <p>Usamos a regra de três quando temos duas grandezas em que a variação no valor de uma acarreta
+                            na variação do valor de outra, seja com uma proporção direta ou inversa.</p>
+                        <strong>Como fazer a regra de três</strong>
+                        <p>A regra de três é feita buscando um valor desconhecido com base em outros 3 que são
+                            anteriormente conhecidos. Analisando o problema, você escolhe se o valor é "diretamente
+                            proporcional" ou "inversamente proporcional". Quando a relação é diretamente proporcional,
+                            um
+                            valor aumenta e o outro também aumenta na mesma proporção, já quando é inversamente
+                            proporcional, quando um aumenta o outro valor diminui na mesma proporção.<p>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+    </div>
+
+
+
+</body>
+<script type="text/javascript" src="script/scripts.js"></script>
+
+</html>

@@ -1,0 +1,161 @@
+:root {
+    --box-shadow: 0px 0px 28px -3px #00000059;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-header {
+    background-color: #4823B1;
+    box-shadow: 0px 7px 29px rgba(0, 0, 0, 0.35);
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffdfff;
+    font: 500 1rem Poppins;
+}
+
+.page-header>a {
+    display: block;
+
+    font: 500 3.6rem Poppins;
+    color: #fff;
+
+    padding-top: 2rem;
+}
+
+.page-header>p {
+    font: 300 1rem Poppins;
+    color: #fff;
+
+    padding-bottom: 3.5rem;
+}
+
+.fa-heart {
+    color: red;
+}
+
+#content {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    font: 300 1.2rem Poppins;
+    color: #494949;
+}
+
+#content strong {
+    font: 500 1.6rem Poppins;
+    color: #000000;
+}
+
+#content aside {
+    margin: 0 auto;
+}
+
+#content aside img {
+    align-self: center;
+    width: 65%;
+    height: 65%;
+}
+
+article section {
+    background-color: #f8f8f89f;
+    box-shadow: var(--box-shadow);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+
+    padding: 1rem 2rem;
+    width: 85%;
+}
+
+article section p {
+    margin: 0.6rem 0;
+}
+
+.input-group {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.input-group .insert-data,
+.input-group .result-output,
+.button-calculate {
+    margin: 1rem 0;
+    height: 40px;
+    width: 170px;
+
+    border: 1px solid #838383;
+    border-radius: 5px;
+    color: #1f1f1f;
+    font: 500 1.1rem Poppins;
+    outline: none;
+
+    text-align: center;
+}
+
+.input-group .between-inputs-horizontal {
+    font: 700 1rem Poppins;
+    background-color: #b1b1b1;
+    padding: 2px 55px;
+    margin: -5px;
+
+    color: #ffffff;
+}
+
+.result-output {
+    display: inline-block;
+    margin: 0 0 0 15rem;
+    background-color: #401f9921;
+}
+
+.between-inputs-vertical {
+    font: 700 1.2rem Poppins;
+    color: #000000;
+}
+
+.calculate-result {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    margin-bottom: 20px;
+}
+
+#choose-type {
+    margin: 1rem 0 1rem 43px;
+    height: 40px;
+    width: 240px;
+
+    padding: 10px;
+    color: #1f1f1f;
+    outline: none;
+    border-radius: 5px;
+    font: 600 0.8rem Poppins;
+}
+
+.button-calculate {
+    cursor: pointer;
+    background-color: #4823B1;
+    color: #FFF;
+
+    margin-right: 40px
+}
+
+.button-calculate:hover {
+    cursor: pointer;
+    background-color: #401f9b;
+    color: #FFF;
+
+    margin-right: 40px
+}
+
+.rule-of-three-description {
+    margin-top: 1
+}
