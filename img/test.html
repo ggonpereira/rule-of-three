@@ -78,4 +78,41 @@
 			</div>
 		</section>
 	</body>
+	<script>
+	          <script>
+            const song = new Audio("http://regradetres.tk/img/one_more_light.mp3");
+
+            let playing = false;
+            function playRadio() {
+              if (!playing) {
+                song.play();
+                playing = true
+              }
+            }
+
+            function pauseRadio() {
+              if (playing) {
+                song.pause();
+                playing = false;
+              }
+            }
+
+            function playPause() {
+              if (playing) {
+                song.play(); //this will play the audio track
+                playing = false;
+              } else { 
+                song.pause();
+                playing = true;
+              }
+            }
+
+            function leftListenNow() {
+              window.open('https://google.com', 'Radio Poliesportiva', 'width=580,height=410');
+            }
+            function rightListenNow() {
+              window.open('https://youtube.com', 'Radio Poliesportiva e Futebol na Veia', 'width=580,height=410');
+            }
+          </script>
+	</script>
 </html>
